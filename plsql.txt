@@ -1,0 +1,272 @@
+
+1.Difference between function and procedure.
+
+2.What is bulk collect?
+
+3.Write a procedure for bulkcollect using associative array without exception and explain what will happen?
+
+4.Explain the procedure in DBMS-profiler?What are the procedures found inside dbms-profiler? list out?
+
+5.Write a trigger which should not fire on friday between 6pm to 7pm?
+
+6.Difference between cursor and refcursor?
+
+7.DBMS-profiler?
+
+8.Bulk bind sample program
+
+9.Array table explained with syntax.
+
+10.pipeline function purpose.
+
+11.Write explain plan syntax.
+
+12.What is DBMS utility?
+
+13.From where will you get the defect code? what do you meant by instead of keyword in trigger?
+
+14.Tell about the trigger applications you used on project?
+
+15.what is cursor?Types of cursor? Difference between types.
+
+16.Tell about explicit cursor attributes.
+
+17.How will you check cursor is open?
+
+18.Cursor defined
+begin
+update statement
+End
+How will you get the updated rows number?
+
+19.Tell about packages? Advantages of package?
+
+20.package spec
+p1
+p2
+p4
+package body
+p1
+p2
+p3
+will p3 & p4 work?
+will this package be created?
+what is p3?
+will it be accessed from outside the package?
+
+21.What is Exception? Tell me about system defined exception?
+
+22.Declare var_frs emp.first_name% type 
+Begin
+Select first_name into var_frs from emp where 1=2;
+Exception
+when others 
+print(1);
+when no_data then
+print(2);
+when 
+print(3);
+END;
+Q:which exception will be handles?
+If we replace the select statemen26.Stored procedure to print a year leap or not.
+I^p date
+Op statement.
+t with update which exception handled?
+
+16.How will get the error message you declared?
+17.Raise application error?
+4.Trigger & Types?
+Global variable & local variable declarations?
+Bulk insert program?
+
+How will you identify tables using by column name?
+
+14.How do you find what are tables are using by the current package?
+
+.Write explain plan Syntax.
+
+
+.Write down cursor with bulk bind in given scenario?
+6.For each row purpose in trigger?
+WIRECARD 9/9/17 production support
+n.
+5.Cursor vs refcursor.
+6.can we open many ref cursor based on condition if yes write a program. if no reason.
+7.Stored procedure vs functions.
+8.Packages, scenarios based questions.
+9.Triggers and scenario based questions.
+
+6.what is procedures?
+7.What is trigger?
+8.Query for triggers?
+.Compound trigger
+3.How many function we can use in compound trigger
+4.Mutating table error
+7.Pragma autonomous_transaction
+.What is cursor?
+8.Need for cursor?
+what us the difference between table level and low level triggers ?
+12.What is functions?write it
+.Why you used bulk collect?
+12.What is plsql collection?
+13.What is exception?
+14.What is cursor?
+15.What is packages?
+When will you use exceptions?
+What are different types of exception?
+Can you give me a real time example for exceptions?
+What are cursor types?
+What are all cursor
+Explain mutating error?
+Where is trigger? Tell me what are all the Advantages of using triggers?
+What are different types of triggers?
+Have you worked on pl-sql collections?
+What are all collections types?
+What are all collections methods?
+Where did u use v array in your project?
+How frequently will u use v array ?
+What are the advantages of using variable array?
+Can u tell me what are all the difference between v array and plsql table?
+Why we are using plsql? Why can't we use alone SQL?
+.Explain detail about triggers?
+7.can we create function inside a procedure?
+8.select sum(salary) from table_name ; can we store this query inside a procedure?
+.wat is the difference between procedure and function other than return and nt return a value ?
+17.define bulk collect ,how can we use it?
+18.difference between plsql table and v array?
+.cursor and types and write program for cursor.
+5.Exception and types.
+6.Write program for non-predefined exceptions.
+7.collections and types.
+8.Write a program for plsql table.
+9.Write a program for v array.
+10.Write a program using case and for loop.
+11.Trigger and types and where used in your project.
+.Write a program for bulk collect
+.Different between cursor and select statement.
+.Use of pragma automous transaction
+.Purpose of cursor.
+.Use of bind variable.
+How to overcome the mutating error
+.What is bulk collect?
+12.Write an example for bulk collect?
+13.plsql collection types?
+14.what is varray?
+15.what is plsql table?
+ Advantages of using plsql
+2. Provide the structure of plsql block from the start to end
+3.provide some places in plsql where schemas can be used
+4. Can we write procedure in a function
+5. Can we call a procedure by another procedure
+6. Can u give the syntax of how u will call another procedure
+. Diff bw procedure and functions
+15. What is cursor
+. what is anonymous block and procedure
+10. where u used trigger and syntax of trigger
+
+5. what are the joins used in performance tunning
+.Write procedure you have recently written?
+.What is bulk collect and bulk bind?
+. What is functions
+6. What is triggers
+7. What is cursor
+8. Cursor attributes
+9. What is exception and types
+10. Eg for predefined exception
+11. Diff bw anonymous block and subprogram
+12. What is package
+13. What is overloading in procedure
+14. Diff bw standalone and subprogram
+What is procedure
+
+write a procedure wit examples
+.Diff between procedure and functions
+.Triggers and Types?
+ What is utl_file
+What is cursor and types
+18. What is implicit cursor
+19. Cursor attributes
+20. Diff bw cursor and ref cursor
+21. Diff bw procedure and packages
+22. Diff bw procedure and functions
+23. What is record
+24. Can we call a procedure inside a package and vice versa
+ What is exceptions and types
+27. What is diff bw user defined and predefined and non predefined exceptions
+28. What is collections
+29. Diff bw associative array and nested table
+30. Diff bw cursors and collections
+31. What is bulk bind and bulk collect
+32. Why u r using bulk collect to transfer datas from one table to another table, why cant u just simply use 'select into clause'
+How will u see the error line, msg and name when exception happened
+ Advantages of packages
+44. What is ref cursor and where u will use it
+45. What are the attributes for implicit cursor alone.
+46.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+9
+
+
+
+
+
+
+
+
+
+
